@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Legion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #banner {
+            background-color: #333;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+        }
+        #banner h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #8B0000; /* ciemno czerwony */
+            text-transform: capitalize;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #guild-image {
+            flex: 1 1 50%;
+            width: 662px; /* szerokość */
+            height: 405px; /* wysokość */
+            background-image: url('Zdjecie.jpg'); /* Link do pliku w folderze */
+            background-size: cover;
+            background-position: center;
+        }
+        #info {
+            flex: 1 1 50%;
+            padding: 20px;
+            background-color: #EEE;
+        }
+        #info h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        #info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #info ul li {
+            margin-bottom: 10px;
+        }
+        #info a {
+            color: #8B0000; /* czerwony */
+            text-decoration: none;
+        }
+        #users {
+            flex: 1 1 100%;
+            padding: 20px;
+            background-color: #F8F8F8;
+        }
+        .gold { color: gold; }
+        .purple { color: purple; }
+        .red { color: red; }
+        .blue { color: blue; }
+        .green { color: green; }
+        .black { color: black; }
+        #footer {
+            background-color: #444;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            clear: both; /* Dla poprawnego rozłożenia elementów */
+        }
+    </style>
+</head>
+<body>
+
+<div id="banner">
+    <h1>Black Legion</h1>
+</div>
+
+<div id="main">
+    <div id="guild-image"></div>
+
+    <div id="info">
+        <h2>Informacje o gildii:</h2>
+        <ul>
+            <li>Nazwa: Black Legion</li>
+            <li>Lider: TwojeImie</li>
+            <li>Rekrutacja: Otwarta</li>
+            <li>Strefa czasowa: UTC +1</li>
+            <li>Strona Discord: <a href="link_do_discorda">Discord Gildii</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="users">
+    <h2>Uczestnicy gildii:</h2>
+    <p class="gold">Zloty: (Nick1, Nick2, Nick3...)</p>
+    <p class="purple">Fioletowy: (Nick1, Nick2, Nick3...)</p>
+    <p class="red">Czerwony: (Nick1, Nick2, Nick3...)</p>
+    <p class="blue">Niebieski: (Nick1, Nick2, Nick3...)</p>
+    <p class="green">Zielony: (Nick1, Nick2, Nick3...)</p>
+    <p class="black">Czarny: (Nick1, Nick2, Nick3...)</p>
+</div>
+
+<div id="footer">
+    <p>Strona główna: <a href="https://albiononline.com/pl/">Albion Online</a> | Autor: Sekator | Email: SekatorBL@gmail.com</p>
+</div>
+
+</body>
+</html>
